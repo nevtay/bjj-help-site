@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from './UI/Container'
+import Container from './UI/Layout/Container'
 
 const Hero = () => {
     return (
