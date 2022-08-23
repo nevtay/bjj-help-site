@@ -4,12 +4,11 @@ const Hero = () => {
     const router = useRouter()
     const navigateToPositionsPage = () => router.push('/positions')
     const navigateToSubmissionsPage = () => router.push('/submissions')
-    const textStyleClasses = 'text-white text-6xl leading-normal mb-5'
-    const desktopTextWidth = 'xl:w-3/6'
-    const mobileTextWidth = 'md:w-5/6'
+    const textStyleClasses = 'w-5/6 text-5xl leading-normal text-white lg:text-7xl lg:leading-relaxed mb-5'
+    const desktopTextWidth = 'lg:w-4/6'
     return (
         <>
-            <h1 className={`${textStyleClasses} ${desktopTextWidth} ${mobileTextWidth}`}>A Brazilian Jiu-Jitsu Resource Page</h1>
+            <p className={`${textStyleClasses} ${desktopTextWidth}`}>A Brazilian Jiu-Jitsu Resource Page</p>
             <span>
                 <button onClick={navigateToPositionsPage} type="button" className="rounded-m inline-flex items-center justify-center text-yellow-500 font-bold w-auto mr-7 hover:underline" aria-expanded="false">
                     Positions
