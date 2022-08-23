@@ -1,13 +1,13 @@
-import React from 'react'
 import ListItem from './ListItem'
 
+
 const List = (props) => {
-    console.log("props", props)
     const items = props.data || []
+    const type = props.dataType || ""
     return (
         <div className='flex flex-wrap mt-8'>
             {items.map(item => {
-                return <ListItem item={item} key={item} />
+                return <ListItem item={item} key={item} type={type} />
             })}
         </div>
     )
