@@ -2,12 +2,12 @@ import { useRouter } from "next/router"
 
 const BackButton = (props) => {
     const router = useRouter()
-    const goBackOnePageHandler = e => {
-        router.back()
+    const navigateToHomePageHandler = e => {
+        router.push("/")
     }
     return (
         <button
-            onClick={goBackOnePageHandler}
+            onClick={navigateToHomePageHandler}
             className={`rounded-full text-white border px-4 py-1 ${props.hoverStyling ? props.hoverStyling : "hover:bg-gray-100"} hover:text-black`}>
             <span>↺&nbsp;</span>Back
         </button>
