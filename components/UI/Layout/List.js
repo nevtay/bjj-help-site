@@ -5,7 +5,7 @@ const List = (props) => {
     console.log("props", props)
     const items = props.data || []
     return (
-        <div className='flex w-auto'>
+        <div className='flex flex-wrap'>
             {items.map(item => {
                 return <ListItem item={item} key={item} />
             })}
