@@ -4,11 +4,17 @@ import ListItem from './ListItem'
 const List = (props) => {
     const items = props.data || []
     const type = props.dataType || ""
+    const hoverStyling = props.hoverStyling || ""
 
     return (
         <div className='flex flex-wrap mt-8'>
             {items.map(item => {
-                return <ListItem item={item} key={item} type={type} />
+                return <ListItem
+                    item={item}
+                    key={item}
+                    type={type}
+                    hoverStyling={hoverStyling}
+                />
             })}
         </div>
     )
