@@ -9,7 +9,7 @@ const Positions = () => {
         <>
             <h1 className='w-4/6 text-white text-6xl leading-normal mb-3 text-yellow-500'>Positions</h1>
             <BackButton hoverStyling="hover:bg-orange-400" />
-            <List data={positions} dataType="positions" />
+            <List data={positions} dataType="positions" hoverStyling="hover:bg-yellow-700" />
         </>
     )
 }
