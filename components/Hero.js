@@ -4,7 +4,7 @@ const Hero = () => {
     const router = useRouter()
     const navigateToPositionsPage = () => router.push('/positions')
     const navigateToSubmissionsPage = () => router.push('/submissions')
-    const textStyleClasses = 'w-5/6 text-5xl leading-normal text-white lg:text-7xl lg:leading-relaxed mb-5'
+    const textStyleClasses = 'w-5/6 text-6xl leading-normal text-white lg:text-7xl lg:leading-relaxed mb-5'
     const desktopTextWidth = 'lg:w-4/6'
     return (
         <>
