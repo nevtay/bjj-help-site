@@ -9,7 +9,7 @@ const SelectedPosition = () => {
         <div>
             <h1 className='w-4/6 text-6xl leading-normal mb-1 text-yellow-500'>Positions</h1>
             <h2 className='w-4/6 text-4xl leading-normal text-yellow-300 mb-5'>{selectedPosition}</h2>
-            <BackButton onBack={navigateToPositionsPage} />
+            <BackButton onBack={navigateToPositionsPage} hoverStyling="hover:bg-orange-400 hover:text-black" />
         </div>
     )
 }
