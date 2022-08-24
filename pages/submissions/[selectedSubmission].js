@@ -5,7 +5,10 @@ const SelectedSubmission = () => {
     const selectedSubmission = router.query.selectedSubmission || ""
 
     return (
-        <div className='text-white'>{selectedSubmission}</div>
+        <div>
+            <h1 className='w-4/6 text-6xl leading-normal mb-1 text-purple-500'>Submissions</h1>
+            <h2 className='w-4/6 text-4xl leading-normal text-purple-300'>{selectedSubmission}</h2>
+        </div>
     )
 }
 
