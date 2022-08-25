@@ -1,11 +1,67 @@
 {
-    "positions": [
-        "Mount",
-        "Back",
-        "Half Guard",
-        "Closed Guard",
-        "Side Control",
-        "North South",
-        "Honey Hole"
+    "data": [
+        {
+            "name": "Mount",
+            "description": "The mount, or mounted position, is a dominant ground grappling position, where one combatant sits on the other combatants torso with the face pointing towards the opponent's head. This is a favorable position for the top combatant in several ways.",
+            "imagesUrl": [
+                "https://cdn.shopify.com/s/files/1/1800/2299/articles/Murilo_Bustamante_mount_1024x1024.png?v=1543691874",
+                "https://bjjmore.com/wp-content/uploads/2022/03/maxresdefault-6.jpg"
+            ],
+            "type": "positions"
+        },
+        {
+            "name": "Back",
+            "description": "The back mount is where you control the opponent from the back. A key idea in using the back mount is to apply chest to back connection as you secure a seatbelt grip. Placing your feet on the opponent's hips is the fundamental positioning taught to beginners. Another alternative is to use a body triangle.",
+            "imagesUrl": [
+                "https://i.ytimg.com/vi/CtcZlbLkedg/maxresdefault.jpg",
+                "https://cdn.evolve-mma.com/wp-content/uploads/2021/05/bjj-back-mount-control.jpg"
+            ],
+            "type": "positions"
+        },
+        {
+            "name": "Half Guard",
+            "description": "The half guard is the position that is in between a full guard and side control or full mount. The combatant on top will try to untangle the leg and pass to obtain side control or mount, while the bottom combatant will try to transition into a full guard or alternatively attempt a sweep or submission.",
+            "imagesUrl": [
+                "https://cdn.shopify.com/s/files/1/1800/2299/articles/half-guard_1024x1024.jpg?v=1506792761",
+                "https://i0.wp.com/www.studentofbjj.com/wp-content/uploads/2017/02/half-guard-1024x724.png?resize=648%2C458"
+            ],
+            "type": "positions"
+        },
+        {
+            "name": "Closed Guard",
+            "description": "The full guard, also known as the closed guard, is one of BJJ’s strongest positions. Full guard is basically an upside-down mount position for the person on the bottom. In full guard, the individual in the bottom position wraps his or her legs around the person on top. From full guard, the bottom player can defend strikes, apply submissions, and initiate sweeps. The full guard is a great BJJ, MMA, and self-defense position. ",
+            "imagesUrl": [
+                "https://cdn.evolve-mma.com/wp-content/uploads/2021/04/bjj-full-guard.jpg",
+                "https://www.grapplearts.com/wp-content/uploads/2014/05/Closed-Guard.png"
+            ],
+            "type": "positions"
+        },
+        {
+            "name": "Side Control",
+            "description": "Side control is a pinning position in Brazilian jiu-jitsu when you’re perpendicular to your opponent and are not entangled in their legs. It’s also one of the worst positions to be in when you’re on the bottom. Typically but not always you’re chest to chest with your opponent.",
+            "imagesUrl": [
+                "https://upload.wikimedia.org/wikipedia/commons/0/05/Royce_Gracie_Demonstration_09.jpg",
+                "https://jiujitsutimes.com/wp-content/uploads/Reader-Question.png"
+            ],
+            "type": "positions"
+        },
+        {
+            "name": "North South",
+            "description": "The north-south is a position where you lay on top of the opponent with your head pointing towards their feet as you drop your upper body (particularly around the chest area) to pin their torso. It is a variation of the side control position where you line up above the opponent instead of being perpendicular. While in this position, your legs are typically sprawled to maintain pressure and stay mobile. Alternatively, you can drop to your knee to maintain the tightness of the control.",
+            "imagesUrl": [
+                "https://www.attacktheback.com/wp-content/uploads/2016/09/North-South-Jiu-Jitsu-Postition-2.jpg",
+                "https://preview.redd.it/gpoe0sbzeuq41.jpg?auto=webp&s=904450a3f1cc29ea984207b77274d01d2913d139"
+            ],
+            "type": "positions"
+        },
+        {
+            "name": "Turtle",
+            "description": "A turtle position in BJJ is when a grappler curls up in a crunch, their knees and top of the feet on the ground, elbows, and arms inside, and forehead on the mats – similar to a turtle. Adopted from Judo, the basic purpose of this guard position is to prevent your opponent from attacking you.",
+            "imagesUrl": [
+                "https://tapcity.net/wp/wp-content/uploads/2022/03/priit-mikhelson-turtle-guard-review-2.png",
+                "https://i.ytimg.com/vi/rda4BlGhsvc/maxresdefault.jpg"
+            ],
+            "type": "positions"
+        }
     ]
 }
