@@ -6,7 +6,7 @@ import data from "../../utils/POSITIONS.json"
 
 const Positions = () => {
     const router = useRouter()
-    const positions = data.positions
+    const positions = data.data
     const navigateToHomePageHandler = () => router.push("/")
     return (
         <>
