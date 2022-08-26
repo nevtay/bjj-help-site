@@ -1,8 +1,22 @@
 {
     "submissions": [
-        "Kimura",
-        "Rear Naked Choke",
-        "Ezekiel Choke",
-        "Straight Ankle Lock"
+        {
+            "name": "Kimura",
+            "description": "The Kimura lock, which is also known as the double wristlock, chicken wing, and gyaku ude-garami, is a highly effective submission that has been successfully used in both BJJ and MMA competition. The Kimura works by isolating the elbow and shoulder joints through the use of a figure-four grip.",
+            "imagesUrl": [
+                "https://jiujitsu-news.com/wp-content/uploads/2020/06/Jiu-Jitsu-Kimura-Lock.png",
+                "https://i.ytimg.com/vi/Zhh4W24rwrw/maxresdefault.jpg"
+            ],
+            "type": "submissions"
+        },
+        {
+            "name": "Rear Naked Choke",
+            "description": "The rear naked choke or mata leão is considered as one of the most practiced submission grappling techniques in BJJ. In fact, it's also widely labeled as the most useful type of chokehold technique. It has become a staple in BJJ and even in the UFC.",
+            "imagesUrl": [
+                "https://www.bjjee.com/wp-content/uploads/2017/04/rnc.jpg",
+                "https://i0.wp.com/www.studentofbjj.com/wp-content/uploads/2017/02/rearnakedchoke-1024x724.png?resize=648%2C458"
+            ],
+            "type": "submissions"
+        }
     ]
 }

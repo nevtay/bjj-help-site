@@ -7,6 +7,8 @@ const SelectedPosition = () => {
     const selectedPosition = router.query.selectedPosition || ""
     const selectedPositionData = positions.data.find(pos => pos.name.toLowerCase() === selectedPosition.toLowerCase())
 
+    const navigateToPositionsPage = () => router.push('/positions')
+
     if (selectedPositionData) {
         let images = <span className="flex flex-col flex-wrap items-start items-center w-12/12 md:items-start lg:flex-row lg:w-12/12 lg:items-stretch lg:justify-start">
             {selectedPositionData.imagesUrl && selectedPositionData.imagesUrl.map(img => {
@@ -16,7 +18,6 @@ const SelectedPosition = () => {
             })}
         </span>
 
-        const navigateToPositionsPage = () => router.push('/positions')
         return (
             <div>
                 <h1 className='w-4/6 text-6xl leading-normal mb-1 text-yellow-500'>Positions</h1>
