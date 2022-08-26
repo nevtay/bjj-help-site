@@ -2,7 +2,7 @@ import React from 'react'
 
 const Container = (props) => {
     return (
-        <div className='lg:p-24 md:mx-auto p-16'>{props.children}</div>
+        <div className='p-10 md:p-16 lg:p-24 '>{props.children}</div>
     )
 }
 
