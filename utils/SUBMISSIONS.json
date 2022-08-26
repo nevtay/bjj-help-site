@@ -5,7 +5,7 @@
             "description": "The Kimura lock, which is also known as the double wristlock, chicken wing, and gyaku ude-garami, is a highly effective submission that has been successfully used in both BJJ and MMA competition. The Kimura works by isolating the elbow and shoulder joints through the use of a figure-four grip.",
             "imagesUrl": [
                 "https://jiujitsu-news.com/wp-content/uploads/2020/06/Jiu-Jitsu-Kimura-Lock.png",
-                "https://i.ytimg.com/vi/Zhh4W24rwrw/maxresdefault.jpg"
+                "https://i.ytimg.com/vi/ofUtASU6sXY/maxresdefault.jpg"
             ],
             "type": "submissions"
         },
@@ -24,6 +24,15 @@
             "imagesUrl": [
                 "https://cdn.evolve-mma.com/wp-content/uploads/2021/09/BJJ-Ankle-Lock.jpg",
                 "https://www.watchbjj.com/wp-content/uploads/2015/06/how-to-finish-a-straight-ankle-l-1024x576.jpg"
+            ],
+            "type": "submissions"
+        },
+        {
+            "name": "Americana",
+            "description": "The Americana, or 'Americana Lock', is a submission tactic used in Brazilian jiu-jitsu whereby the practitioner of the move takes control of his/her opponent's arm and putting it in an 'L' shape, making the elbow and shoulder joints vulnerable.",
+            "imagesUrl": [
+                "https://i.ytimg.com/vi/oWGdu8XU-No/maxresdefault.jpg",
+                "https://media.istockphoto.com/photos/brazilian-jiu-jistu-bjj-nogi-grappling-training-two-male-athletes-picture-id1329778864?k=20&m=1329778864&s=612x612&w=0&h=hOFyCMTF3D1SwudNLyvNySjayPXNhdzd_hYfCD_vvYc="
             ],
             "type": "submissions"
         }
