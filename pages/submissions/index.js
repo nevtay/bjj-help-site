@@ -12,7 +12,7 @@ const Submissions = () => {
         <>
             <h1 className='w-4/6 text-6xl leading-normal mb-3 text-purple-500'>Submissions</h1>
             <BackButton hoverStyling="hover:bg-purple-400" onBack={navigateToHomePageHandler} />
-            <List data={submissions} dataType="submissions" hoverStyling="hover:bg-purple-700" />
+            <List data={submissions} dataType="submissions" hoverStyling="hover:bg-purple-400" />
         </>
     )
 }
