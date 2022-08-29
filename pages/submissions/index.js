@@ -4,9 +4,9 @@ import List from "../../components/UI/Layout/List"
 
 import data from "../../utils/SUBMISSIONS.json"
 
-const Submissions = () => {
+const Submissions = (props) => {
     const router = useRouter()
-    const submissions = data.submissions
+    const submissions = props.submissions
     const navigateToHomePageHandler = () => router.push("/")
     return (
         <>
@@ -18,3 +18,11 @@ const Submissions = () => {
 }
 
 export default Submissions
+
+export async function getStaticProps() {
+    return {
+        props: {
+            submissions: data.submissions
+        }
+    }
+}

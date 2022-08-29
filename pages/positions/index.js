@@ -4,10 +4,10 @@ import List from "../../components/UI/Layout/List"
 
 import data from "../../utils/POSITIONS.json"
 
-const Positions = () => {
+const Positions = (props) => {
     const router = useRouter()
-    const positions = data.data
     const navigateToHomePageHandler = () => router.push("/")
+    const positions = props.positions
     return (
         <>
             <h1 className='w-4/6 text-6xl leading-normal mb-3 text-yellow-500'>Positions</h1>
@@ -18,3 +18,11 @@ const Positions = () => {
 }
 
 export default Positions
+
+export async function getStaticProps() {
+    return {
+        props: {
+            positions: data.positions
+        }
+    }
+}
