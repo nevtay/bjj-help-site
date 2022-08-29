@@ -1,12 +1,12 @@
 import Image from 'next/future/image'
 import { useRouter } from "next/router"
-import positions from "../../utils/POSITIONS.json"
+import data from "../../utils/POSITIONS.json"
 import BackButton from "../../components/UI/BackButton"
 
 const SelectedPosition = () => {
     const router = useRouter()
     const selectedPosition = router.query.selectedPosition || ""
-    const selectedPositionData = positions.data.find(pos => pos.name.toLowerCase() === selectedPosition.toLowerCase())
+    const selectedPositionData = data.positions.find(pos => pos.name.toLowerCase() === selectedPosition.toLowerCase())
 
     const navigateToPositionsPage = () => router.push('/positions')
 
