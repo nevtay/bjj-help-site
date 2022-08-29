@@ -20,7 +20,7 @@ const SelectedSubmission = () => {
 
         return (
             <div>
-                <h1 className='w-4/6 text-6xl leading-normal mb-3 text-purple-500'>Submissions</h1>
+                <h1 className='w-4/6 text-6xl leading-normal mb-3 font-bold tracking-wide text-purple-500'>Submissions</h1>
                 <BackButton onBack={navigateToSubmissionsPage} hoverStyling="hover:bg-purple-400 hover:text-black mb-5" />
                 <h2 className='w-4/6 text-4xl leading-normal text-purple-300 mb-5'>{selectedSubmissionData.name}</h2>
                 <p className='w-12/12 text-small leading-normal text-purple-300 mb-5 md:w-5/6 '>{selectedSubmissionData.description}</p>

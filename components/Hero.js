@@ -10,10 +10,10 @@ const Hero = () => {
         <>
             <p className={`${textStyleClasses} ${desktopTextWidth}`}>A Brazilian Jiu-Jitsu Resource Page</p>
             <span>
-                <button onClick={navigateToPositionsPage} type="button" className="rounded-m inline-flex items-center justify-center text-yellow-500 font-bold w-auto mr-7 hover:underline" aria-expanded="false">
+                <button onClick={navigateToPositionsPage} type="button" className="tracking-wide text-xl rounded-m inline-flex items-center justify-center text-yellow-500 font-bold w-auto mr-7 hover:underline" aria-expanded="false">
                     Positions
                 </button>
-                <button onClick={navigateToSubmissionsPage} type="button" className="rounded-md inline-flex items-center justify-center text-purple-500 font-bold w-auto hover:underline" aria-expanded="false">
+                <button onClick={navigateToSubmissionsPage} type="button" className="tracking-wide text-xl rounded-md inline-flex items-center justify-center text-purple-500 font-bold w-auto hover:underline" aria-expanded="false">
                     Submissions
                 </button>
             </span>
