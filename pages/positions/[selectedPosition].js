@@ -10,6 +10,16 @@ const SelectedPosition = () => {
 
     const navigateToPositionsPage = () => router.push('/positions')
 
+    if (!selectedPositionData) {
+        return (
+            <div>
+                <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-yellow-500'>Positions</h1>
+                <BackButton onBack={navigateToPositionsPage} hoverStyling="hover:bg-orange-400 hover:text-black mb-7" />
+                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5 md:w-5/6'>{`No data found for "${selectedPosition}"`}</p>
+            </div>
+        )
+    }
+
     if (selectedPositionData) {
         let images = <span className="flex flex-col flex-wrap items-start items-center w-12/12 md:items-start lg:flex-row lg:w-12/12 lg:items-stretch lg:justify-start">
             {selectedPositionData.imagesUrl && selectedPositionData.imagesUrl.map((img, idx) => {

@@ -9,6 +9,16 @@ const SelectedSubmission = () => {
 
     const navigateToSubmissionsPage = () => router.push('/submissions')
 
+    if (!selectedSubmissionData) {
+        return (
+            <div>
+                <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-purple-500'>Submission</h1>
+                <BackButton onBack={navigateToSubmissionsPage} hoverStyling="hover:bg-purple-400 hover:text-black mb-7" />
+                <p className='w-12/12 text-small leading-normal text-purple-300 mb-5 md:w-5/6 '>{`No data found for "${selectedSubmission}"`}</p>
+            </div>
+        )
+    }
+
     if (selectedSubmissionData) {
         let images = <span className="flex flex-col flex-wrap items-start items-center w-12/12 md:items-start lg:flex-row lg:w-12/12 lg:items-stretch lg:justify-start">
             {selectedSubmissionData.imagesUrl && selectedSubmissionData.imagesUrl.map(img => {
