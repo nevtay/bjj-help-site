@@ -6,7 +6,8 @@ import BackButton from "../../components/UI/BackButton"
 const SelectedPosition = () => {
     const router = useRouter()
     const selectedPosition = router.query.selectedPosition || ""
-    const selectedPositionData = data.positions.find(pos => pos.name.toLowerCase() === selectedPosition.toLowerCase())
+    const selectedPositionData = selectedPosition && data.positions.find(pos => pos.name.toLowerCase() === selectedPosition.toLowerCase())
+    let images
 
     const navigateToPositionsPage = () => router.push('/positions')
 
@@ -21,7 +22,7 @@ const SelectedPosition = () => {
     }
 
     if (selectedPositionData) {
-        let images = <span className="flex flex-col flex-wrap items-start items-center w-12/12 md:items-start lg:flex-row lg:w-12/12 lg:items-stretch lg:justify-start">
+        images = <span className="flex flex-col flex-wrap items-start items-center w-12/12 md:items-start lg:flex-row lg:w-12/12 lg:items-stretch lg:justify-start">
             {selectedPositionData.imagesUrl && selectedPositionData.imagesUrl.map((img, idx) => {
                 return (
                     <Image src={img} key={img}
@@ -42,8 +43,6 @@ const SelectedPosition = () => {
                 {images}
             </div>
         )
-    } else {
-        return <p>SelectedPosition not found!</p>
     }
 }
 
