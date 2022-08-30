@@ -10,8 +10,8 @@ const Positions = (props) => {
     const positions = props.positions
     return (
         <>
-            <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-3 font-bold tracking-wide text-yellow-500'>Positions</h1>
-            <BackButton hoverStyling="hover:bg-orange-400" onBack={navigateToHomePageHandler} />
+            <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-yellow-500'>Positions</h1>
+            <BackButton hoverStyling="hover:bg-orange-400 mb-7" onBack={navigateToHomePageHandler} />
             <List data={positions} dataType="positions" hoverStyling="hover:bg-orange-400" />
         </>
     )

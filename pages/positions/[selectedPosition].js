@@ -25,8 +25,8 @@ const SelectedPosition = () => {
 
         return (
             <div>
-                <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-3 font-bold tracking-wide text-yellow-500'>Positions</h1>
-                <BackButton onBack={navigateToPositionsPage} hoverStyling="hover:bg-orange-400 hover:text-black mb-5" />
+                <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-yellow-500'>Positions</h1>
+                <BackButton onBack={navigateToPositionsPage} hoverStyling="hover:bg-orange-400 hover:text-black mb-7" />
                 <h2 className='w-4/6 text-3xl md:text-4xl leading-normal text-yellow-300 mb-5'>{selectedPositionData.name}</h2>
                 <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5 md:w-5/6 '>{selectedPositionData.description}</p>
                 {images}
