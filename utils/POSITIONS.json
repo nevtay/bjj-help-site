@@ -8,9 +8,9 @@
                 "https://bjjmore.com/wp-content/uploads/2022/03/maxresdefault-6.jpg"
             ],
             "videosUrl": [
-                "https://www.youtube.com/watch?v=OCPLZmupS9c",
-                "https://www.youtube.com/watch?v=Wy6Si0FuQaU",
-                "https://www.youtube.com/watch?v=pw_9ZZLkkNI"
+                "https://www.youtube.com/embed/OCPLZmupS9c",
+                "https://www.youtube.com/embed/Wy6Si0FuQaU",
+                "https://www.youtube.com/embed/pw_9ZZLkkNI"
             ],
             "type": "positions"
         },
