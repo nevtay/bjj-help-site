@@ -21,7 +21,11 @@
                 "https://i.ytimg.com/vi/CtcZlbLkedg/maxresdefault.jpg",
                 "https://cdn.evolve-mma.com/wp-content/uploads/2021/05/bjj-back-mount-control.jpg"
             ],
-            "videosUrl": [],
+            "videosUrl": [
+                "https://www.youtube.com/embed/w1ZZQeiyw7U",
+                "https://www.youtube.com/embed/aOPpINAXLaU",
+                "https://www.youtube.com/embed/FbSxLT6bAoQ"
+            ],
             "type": "positions"
         },
         {
@@ -31,7 +35,11 @@
                 "https://cdn.shopify.com/s/files/1/1800/2299/articles/half-guard_1024x1024.jpg?v=1506792761",
                 "https://i0.wp.com/www.studentofbjj.com/wp-content/uploads/2017/02/half-guard-1024x724.png?resize=648%2C458"
             ],
-            "videosUrl": [],
+            "videosUrl": [
+                "https://www.youtube.com/embed/9zKr-xYlPcg",
+                "https://www.youtube.com/embed/GYq1cv9mCdg",
+                "https://www.youtube.com/embed/HmBJN5FE9q4"
+            ],
             "type": "positions"
         },
         {
@@ -41,7 +49,11 @@
                 "https://cdn.evolve-mma.com/wp-content/uploads/2021/04/bjj-full-guard.jpg",
                 "https://www.grapplearts.com/wp-content/uploads/2014/05/Closed-Guard.png"
             ],
-            "videosUrl": [],
+            "videosUrl": [
+                "https://www.youtube.com/embed/SZmnh7yZlOw",
+                "https://www.youtube.com/embed/SufYLQTDHaY",
+                "https://www.youtube.com/embed/nU9YxDabnSU"
+            ],
             "type": "positions"
         },
         {
@@ -50,6 +62,11 @@
             "imagesUrl": [
                 "https://upload.wikimedia.org/wikipedia/commons/0/05/Royce_Gracie_Demonstration_09.jpg",
                 "https://jiujitsutimes.com/wp-content/uploads/Reader-Question.png"
+            ],
+            "videosUrl": [
+                "https://www.youtube.com/embed/DYUaYue-6BU",
+                "https://www.youtube.com/embed/nDbHQPBvQvQ",
+                "https://www.youtube.com/embed/wVSLLFxix3g"
             ],
             "type": "positions"
         },
@@ -60,7 +77,11 @@
                 "https://www.attacktheback.com/wp-content/uploads/2016/09/North-South-Jiu-Jitsu-Postition-2.jpg",
                 "https://cdn.shopify.com/s/files/1/1800/2299/articles/powerful_arm_bar_1024x1024.png?v=1544461478"
             ],
-            "videosUrl": [],
+            "videosUrl": [
+                "https://www.youtube.com/embed/1F00_QrUwFI",
+                "https://www.youtube.com/embed/K6llc7aePII",
+                "https://www.youtube.com/embed/cans383if9Q"
+            ],
             "type": "positions"
         },
         {
@@ -70,7 +91,11 @@
                 "https://tapcity.net/wp/wp-content/uploads/2022/03/priit-mikhelson-turtle-guard-review-2.png",
                 "https://i.ytimg.com/vi/rda4BlGhsvc/maxresdefault.jpg"
             ],
-            "videosUrl": [],
+            "videosUrl": [
+                "https://www.youtube.com/embed/-BYPW3FwG7I",
+                "https://www.youtube.com/embed/5fRGRO6jUPE",
+                "https://www.youtube.com/embed/A8JVwd_OoSY"
+            ],
             "type": "positions"
         }
     ]
