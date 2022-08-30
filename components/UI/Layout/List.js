@@ -11,7 +11,7 @@ const List = (props) => {
             {items.map(item => {
                 return <ListItem
                     item={item}
-                    key={item}
+                    key={item.name}
                     type={type}
                     hoverStyling={hoverStyling}
                 />
