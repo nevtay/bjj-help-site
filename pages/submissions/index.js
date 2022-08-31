@@ -24,7 +24,7 @@ const Submissions = (props) => {
             <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-purple-500'>Submissions</h1>
             <Button hoverStyling="hover:bg-purple-400 mb-7" onBack={navigateToHomePageHandler} />
             <br />
-            <Button text={`${sorting === 'asc' ? 'Sort Descending ↓' : 'Sort Ascending ↑'}`} onBack={sortSubmissions} />
+            <Button text={`${sorting === 'asc' ? '↓ Sort Descending' : '↑ Sort Ascending'}`} onBack={sortSubmissions} />
             <List data={submissions} dataType="submissions" hoverStyling="hover:bg-purple-400" />
         </>
     )
@@ -35,7 +35,7 @@ export default Submissions
 export async function getStaticProps() {
     return {
         props: {
-            submissions: data.submissions
+            submissions: data.submissions.sort((a, b) => a.name.localeCompare(b.name))
         }
     }
 }
