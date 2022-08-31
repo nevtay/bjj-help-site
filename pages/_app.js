@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <Container classes={"pt-16"}>
         <Component {...pageProps} />
       </Container>
-      <footer className='bg-gradient-to-r from-black via-black to-black text-center text-white bottom-0 left-0 mt-auto w-full py-4'>
+      <footer className='bg-gradient-to-r from-black via-black to-black text-center text-white bottom-0 left-0 mt-10 w-full py-8'>
         <Container>
           <div className='flex flex-col items-center flex-wrap justify-center'>
             <h1 className='text-sm mb-2'>A Simple Brazilian Jit-Jitsu Resource Site</h1>
