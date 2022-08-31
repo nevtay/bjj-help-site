@@ -7,7 +7,7 @@ const List = (props) => {
     const hoverStyling = props.hoverStyling || ""
 
     return (
-        <div className='flex flex-wrap mt-8'>
+        <div className='flex flex-wrap'>
             {items.map(item => {
                 return <ListItem
                     item={item}
