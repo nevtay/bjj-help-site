@@ -40,7 +40,7 @@ const SelectedPosition = () => {
         videos =
             <span className="flex flex-col flex-wrap justify-between w-12/12 md:w-10/12 md:flex-row">
                 {selectedPositionData.videosUrl.map(video => {
-                    return <iframe key={video} src={video} className="mr-2 mb-6 h-96 w-12/12 md:w-3.5/12"></iframe>
+                    return <iframe key={video} src={video} className="rounded-lg mr-2 mb-6 h-96 w-12/12 md:w-3.5/12"></iframe>
                 })}
             </span>
 
