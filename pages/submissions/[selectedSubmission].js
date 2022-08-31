@@ -1,6 +1,6 @@
 import { useRouter } from "next/router"
 import submissions from "../../utils/SUBMISSIONS.json"
-import BackButton from "../../components/UI/BackButton"
+import Button from "../../components/UI/Button"
 
 const SelectedSubmission = () => {
     const router = useRouter()
@@ -13,7 +13,7 @@ const SelectedSubmission = () => {
         return (
             <div>
                 <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-purple-500'>Submission</h1>
-                <BackButton onBack={navigateToSubmissionsPage} hoverStyling="hover:bg-purple-400 hover:text-black mb-7" />
+                <Button onBack={navigateToSubmissionsPage} hoverStyling="hover:bg-purple-400 hover:text-black mb-7" />
                 <p className='w-12/12 text-small leading-normal text-purple-300 mb-5 md:w-5/6 '>{`No data found for "${selectedSubmission}"`}</p>
             </div>
         )
@@ -31,7 +31,7 @@ const SelectedSubmission = () => {
         return (
             <div>
                 <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-purple-500'>Submissions</h1>
-                <BackButton onBack={navigateToSubmissionsPage} hoverStyling="hover:bg-purple-400 hover:text-black mb-7" />
+                <Button onBack={navigateToSubmissionsPage} hoverStyling="hover:bg-purple-400 hover:text-black mb-7" />
                 <h2 className='w-4/6 text-3xl md:text-4xl leading-normal text-purple-300 mb-5'>{selectedSubmissionData.name}</h2>
                 <p className='w-12/12 text-small leading-normal text-purple-300 mb-5 md:w-5/6 '>{selectedSubmissionData.description}</p>
                 {images}
