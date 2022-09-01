@@ -37,7 +37,7 @@ const SelectedPosition = () => {
                         width={1000}
                         height={400}
                         priority={true}
-                        className="rounded-lg object-fill mb-3 w-12/12 md:w-5/6 lg:w-5/12 lg:mt-0 lg:mr-3 last-of-type:lg:mr-0" />
+                        className="rounded-lg object-fill mb-8 w-11/12 md:w-5/6 lg:w-5/12 lg:mt-0 lg:mr-3 last-of-type:lg:mr-0" />
                 )
             })}
         </span>
