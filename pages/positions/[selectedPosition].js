@@ -1,11 +1,15 @@
+import { useState } from 'react'
+import { PulseLoader } from 'react-spinners'
+import { InView } from 'react-intersection-observer';
 import Image from 'next/future/image'
 import { useRouter } from "next/router"
-import YouTube from 'react-youtube';
 
 import data from "../../utils/POSITIONS.json"
 import Button from "../../components/UI/Button"
 
 const SelectedPosition = () => {
+    const [showSpinner, setShowSpinner] = useState(true)
+
     const router = useRouter()
     const selectedPosition = router.query.selectedPosition || ""
     const selectedPositionData = selectedPosition && data.positions.find(pos => pos.name.toLowerCase() === selectedPosition.toLowerCase())
@@ -38,11 +42,35 @@ const SelectedPosition = () => {
             })}
         </span>
         videos =
-            <span className="flex flex-col flex-wrap justify-between w-12/12 md:w-10/12 md:flex-row">
-                {selectedPositionData.videosUrl.map(video => {
-                    return <iframe key={video} src={video} className="rounded-lg mr-2 mb-6 h-96 w-12/12 md:w-3.5/12"></iframe>
-                })}
-            </span>
+            <div className="h-100">
+                <h2 className='w-4/6 text-3xl md:text-3xl leading-normal text-yellow-300 mt-20 mb-3'>Videos</h2>
+                {showSpinner && <div className="mt-20 text-center "><PulseLoader color="white" /></div>}
+                <InView
+                    as="span"
+                    className="flex flex-col flex-wrap justify-evenly w-6/6 md:w-5/6"
+                    onChange={(inView) => {
+                        if (inView) {
+                            setShowSpinner(false)
+                        }
+                    }}
+                >
+                    {selectedPositionData.videosUrl.map(video => {
+                        return <iframe
+                            key={video}
+                            src={video}
+                            id={video}
+                            className="rounded-lg mb-10 h-72 md:h-96"
+                            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            title={`A video about ${selectedPositionData.name}`}
+                            loading="lazy"
+                        >
+                        </iframe>
+
+                    })
+                    }
+                </InView>
+            </div>
 
         return (
             <div>
@@ -51,7 +79,6 @@ const SelectedPosition = () => {
                 <h2 className='w-4/6 text-3xl md:text-4xl leading-normal text-yellow-300 mb-5'>{selectedPositionData.name}</h2>
                 <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5 md:w-5/6'>{selectedPositionData.description}</p>
                 {images}
-                <h2 className='w-4/6 text-3xl md:text-3xl leading-normal text-yellow-300 mt-5 mb-3'>Videos</h2>
                 {videos}
             </div>
         )
