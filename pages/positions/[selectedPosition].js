@@ -59,7 +59,7 @@ const SelectedPosition = () => {
                             key={video}
                             src={video}
                             id={video}
-                            className="rounded-lg mb-10 h-72 md:h-96"
+                            className="rounded-lg mb-10 h-72 md:h-96 w-11/12 mx-auto md:mx-0"
                             allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                             title={`A video about ${selectedPositionData.name}`}
