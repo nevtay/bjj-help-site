@@ -8,7 +8,7 @@ const Hero = () => {
     const desktopTextWidth = 'lg:w-4/6'
     return (
         <div className='h-screen'>
-            <p className={`${textStyleClasses} ${desktopTextWidth}`}>A Brazilian Jiu-Jitsu Resource Page</p>
+            <h1 className={`${textStyleClasses} ${desktopTextWidth}`}>A Brazilian Jiu-Jitsu Resource Page</h1>
             <span>
                 <button onClick={navigateToPositionsPage} type="button" className="tracking-wide text-xl rounded-m inline-flex items-center justify-center text-yellow-500 font-bold w-auto mr-7 hover:underline" aria-expanded="false">
                     Positions
