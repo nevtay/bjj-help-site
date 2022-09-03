@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { PulseLoader } from 'react-spinners'
 import { InView } from 'react-intersection-observer';
-import Image from 'next/future/image'
+import Images from '../../components/UI/Layout/Images';
 import { useRouter } from "next/router"
 
 import data from "../../utils/POSITIONS.json"
@@ -29,18 +29,7 @@ const SelectedPosition = () => {
     }
 
     if (selectedPositionData) {
-        images = <span className="flex flex-col flex-wrap items-start items-center w-12/12 md:items-start lg:flex-row lg:w-12/12 lg:items-stretch lg:justify-start">
-            {selectedPositionData.imagesUrl && selectedPositionData.imagesUrl.map((img, idx) => {
-                return (
-                    <Image src={img} key={img}
-                        alt={`${idx}`}
-                        width={1000}
-                        height={400}
-                        priority={true}
-                        className="rounded-lg object-fill mb-8 px-1 w-12/12 md:w-5/6 lg:w-5/12 lg:mt-0 lg:mr-3 last-of-type:lg:mr-0" />
-                )
-            })}
-        </span>
+        images = <Images selectedPositionDataImageUrls={selectedPositionData.imagesUrl} />
         videos =
             <div className="min-h-screen">
                 <h2 className='w-4/6 text-3xl md:text-3xl leading-normal text-yellow-300 mt-20 mb-3'>Videos</h2>
