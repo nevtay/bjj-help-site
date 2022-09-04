@@ -11,7 +11,7 @@ const SingleImage = (props) => {
                 src={image}
                 alt={image.toString()}
                 className={`${imageLoaded ? 'block' : 'hidden'} rounded-lg object-fit mb-6 px-1 w-full lg:w-6/12 last-of-type:lg:mr-0`}
-                priority={true}
+                priority="true"
                 onLoad={() => setImageLoaded(true)}
             />
         </>

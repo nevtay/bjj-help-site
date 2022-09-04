@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Head from "next/head"
 import { useRouter } from "next/router"
 import Button from "../../components/UI/Button"
 import List from "../../components/UI/Layout/List"
@@ -20,13 +21,19 @@ const Positions = (props) => {
         }
     }
     return (
-        <div className="h-screen">
-            <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-yellow-500'>Positions</h1>
-            <Button hoverStyling="hover:bg-orange-400 mb-7" onBack={navigateToHomePageHandler} />
-            <br />
-            <Button text={`${sorting === 'asc' ? '↓ Sort Descending' : '↑ Sort Ascending'}`} onBack={sortPositions} />
-            <List data={positions} dataType="positions" hoverStyling="hover:bg-orange-400" />
-        </div>
+        <>
+            <Head>
+                <title>Positions</title>
+                <meta name="description" content={`Positions database`} />
+            </Head>
+            <div className="h-screen">
+                <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-yellow-500'>Positions</h1>
+                <Button hoverStyling="hover:bg-orange-400 mb-7" onBack={navigateToHomePageHandler} />
+                <br />
+                <Button text={`${sorting === 'asc' ? '↓ Sort Descending' : '↑ Sort Ascending'}`} onBack={sortPositions} />
+                <List data={positions} dataType="positions" hoverStyling="hover:bg-orange-400" />
+            </div>
+        </>
     )
 }
 
