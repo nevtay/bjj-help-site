@@ -38,7 +38,7 @@ const SelectedSubmission = () => {
         return (
             <>
                 <Head>
-                    <title>{selectedPositionData.name}</title>
+                    <title>{selectedSubmissionData.name}</title>
                     <meta name="description" content={`Learn about ${selectedSubmissionData.name}`} />
                 </Head>
                 <div>
