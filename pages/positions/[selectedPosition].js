@@ -1,16 +1,14 @@
+import { useRouter } from "next/router"
 import Images from '../../components/UI/Layout/Images';
 import Videos from '../../components/UI/Layout/Videos';
-import { useRouter } from "next/router"
-
 import data from "../../utils/POSITIONS.json"
 import Button from "../../components/UI/Button"
 
-const SelectedPosition = () => {
+const SelectedPosition = (props) => {
     const router = useRouter()
-    const selectedPosition = router.query.selectedPosition || ""
-    const selectedPositionData = selectedPosition && data.positions.find(pos => pos.name.toLowerCase() === selectedPosition.toLowerCase())
-    let images
-    let videos
+    const { selectedPosition } = router.query
+    const { positions = [] } = props
+    const selectedPositionData = selectedPosition && positions.find(pos => pos.name.toLowerCase() === selectedPosition.toLowerCase())
 
     const navigateToPositionsPage = () => router.push('/positions')
 
@@ -25,8 +23,8 @@ const SelectedPosition = () => {
     }
 
     if (selectedPositionData) {
-        images = <Images selectedPositionDataImageUrls={selectedPositionData.imagesUrl} />
-        videos = <Videos selectedPositionDataVideoUrls={selectedPositionData.videosUrl} />
+        const images = <Images selectedPositionDataImageUrls={selectedPositionData.imagesUrl} />
+        const videos = <Videos selectedPositionDataVideoUrls={selectedPositionData.videosUrl} />
 
         return (
             <div>
@@ -42,3 +40,23 @@ const SelectedPosition = () => {
 }
 
 export default SelectedPosition
+
+export async function getStaticPaths() {
+    const paths = data.positions.map(pos => (
+        {
+            params: { selectedPosition: pos.name }
+        }
+    ))
+    return {
+        paths,
+        fallback: "blocking"
+    }
+}
+
+export async function getStaticProps() {
+    return {
+        props: {
+            positions: data.positions
+        }
+    }
+}
