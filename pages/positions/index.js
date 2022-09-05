@@ -26,8 +26,8 @@ const Positions = (props) => {
                 <title>Positions</title>
                 <meta name="description" content={`Positions database`} />
             </Head>
-            <div className="h-screen">
-                <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-yellow-500'>Positions</h1>
+            <div>
+                <h1 className='text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-yellow-500'>Positions</h1>
                 <Button hoverStyling="hover:bg-orange-400 mb-7" onBack={navigateToHomePageHandler} />
                 <br />
                 <Button text={`${sorting === 'asc' ? '↓ Sort Descending' : '↑ Sort Ascending'}`} onBack={sortPositions} />

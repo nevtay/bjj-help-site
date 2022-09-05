@@ -1,20 +1,22 @@
-import { useState } from 'react'
-import { PulseLoader } from 'react-spinners'
+import Image from 'next/image'
 
 const SingleImage = (props) => {
-    const [imageLoaded, setImageLoaded] = useState(false)
+    const myLoader = () => {
+        return `${image}`
+    }
     const { image } = props
     return (
-        <>
-            {!imageLoaded && <PulseLoader className={`m-auto justify-center items-center h-72 w-full lg:w-6/12 last-of-type:lg:mr-0`} color='white' />}
-            <img
+        <div className={`relative h-60 md:h-50 w-full lg:w-5/12`}>
+            <Image
+                loader={myLoader}
                 src={image}
-                alt={image.toString()}
-                className={`${imageLoaded ? 'block' : 'hidden'} rounded-lg object-fit mb-6 px-1 w-full lg:w-6/12 last-of-type:lg:mr-0`}
-                priority="true"
-                onLoad={() => setImageLoaded(true)}
+                objectFit='cover'
+                objectPosition='center'
+                layout='fill'
+                placeholder="blur"
+                blurDataURL={`data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8f6atHgAHtQLCdE5fpwAAAABJRU5ErkJggg=="`}
             />
-        </>
+        </div>
     )
 }
 
