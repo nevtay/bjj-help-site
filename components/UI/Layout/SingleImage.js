@@ -9,6 +9,7 @@ const SingleImage = (props) => {
         <div className={`relative h-60 md:h-50 w-full lg:w-5/12`}>
             <Image
                 loader={myLoader}
+                unoptimized={true}
                 src={image}
                 objectFit='cover'
                 objectPosition='center'
