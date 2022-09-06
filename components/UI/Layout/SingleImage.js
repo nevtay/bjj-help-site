@@ -6,7 +6,7 @@ const SingleImage = (props) => {
     }
     const { image } = props
     return (
-        <div className={`relative h-60 md:h-50 w-full lg:w-5/12`}>
+        <div className={`relative my-4 mt-auto w-full h-60 md:h-80 md:h-50 lg:w-5/12 lg:mx-auto`}>
             <Image
                 loader={myLoader}
                 unoptimized={true}
@@ -16,6 +16,7 @@ const SingleImage = (props) => {
                 layout='fill'
                 placeholder="blur"
                 blurDataURL={`data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8f6atHgAHtQLCdE5fpwAAAABJRU5ErkJggg=="`}
+                className="rounded-lg"
             />
         </div>
     )
