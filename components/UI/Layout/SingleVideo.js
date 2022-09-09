@@ -14,7 +14,7 @@ const SingleVideo = (props) => {
                 }
             }}
             rootMargin="0px"
-            threshold="0.2"
+            threshold="0.1"
             className='h-72 px-3 py-5 w-full m-auto md:w-11/12 md:h-80 lg:w-6/12 lg:min-h-full 2xl:min-h-full lg:mx-0'
         >
             {!videoLoaded &&
