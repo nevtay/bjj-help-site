@@ -4,6 +4,7 @@ const Hero = () => {
     const router = useRouter()
     const navigateToPositionsPage = () => router.push('/positions')
     const navigateToSubmissionsPage = () => router.push('/submissions')
+    const navigateToAboutPage = () => router.push('/about')
     const textStyleClasses = 'w-5/6 text-5xl leading-normal text-white lg:text-7xl lg:leading-relaxed mb-5'
     const desktopTextWidth = 'lg:w-4/6'
     return (
@@ -13,8 +14,11 @@ const Hero = () => {
                 <button onClick={navigateToPositionsPage} type="button" className="tracking-wide text-xl rounded-m inline-flex items-center justify-center text-yellow-500 font-bold w-auto mr-7 hover:underline" aria-expanded="false">
                     Positions
                 </button>
-                <button onClick={navigateToSubmissionsPage} type="button" className="tracking-wide text-xl rounded-md inline-flex items-center justify-center text-purple-500 font-bold w-auto hover:underline" aria-expanded="false">
+                <button onClick={navigateToSubmissionsPage} type="button" className="tracking-wide text-xl rounded-md inline-flex items-center justify-center text-purple-500 font-bold w-auto mr-7 hover:underline" aria-expanded="false">
                     Submissions
+                </button>
+                <button onClick={navigateToAboutPage} type="button" className="tracking-wide text-xl rounded-md inline-flex items-center justify-center text-blue-500 font-bold w-auto hover:underline" aria-expanded="false">
+                    About BJJ
                 </button>
             </span>
         </div>
