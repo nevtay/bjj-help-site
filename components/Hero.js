@@ -14,10 +14,10 @@ const Hero = () => {
                 <button onClick={navigateToPositionsPage} type="button" className="tracking-wide text-xl rounded-m inline-flex items-center justify-center border rounded-full px-5 py-3 border-yellow-500 text-yellow-500 font-bold w-auto hover:underline hover:bg-yellow-50 md:mr-7 md:mt-0" aria-expanded="false">
                     Positions
                 </button>
-                <button onClick={navigateToSubmissionsPage} type="button" className="tracking-wide text-xl rounded-md inline-flex items-center justify-center border rounded-full px-5 py-3 border-purple-500 text-purple-500 font-bold w-auto hover:underline hover:bg-purple-50 mt-5 md:mr-7 md:mt-0" aria-expanded="false">
+                <button onClick={navigateToSubmissionsPage} type="button" className="tracking-wide text-xl inline-flex items-center justify-center border rounded-full px-5 py-3 border-purple-500 text-purple-500 font-bold w-auto hover:underline hover:bg-purple-50 mt-5 md:mr-7 md:mt-0" aria-expanded="false">
                     Submissions
                 </button>
-                <button onClick={navigateToAboutPage} type="button" className="tracking-wide text-xl rounded-md inline-flex items-center justify-center border rounded-full px-5 py-3 border-blue-500 text-blue-500 font-bold w-auto mt-5 md:mt-0 hover:underline hover:bg-blue-50" aria-expanded="false">
+                <button onClick={navigateToAboutPage} type="button" className="tracking-wide text-xl inline-flex items-center justify-center border rounded-full px-5 py-3 border-blue-500 text-blue-500 font-bold w-auto mt-5 md:mt-0 hover:underline hover:bg-blue-50" aria-expanded="false">
                     About BJJ
                 </button>
             </span>
