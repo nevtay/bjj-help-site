@@ -19,19 +19,15 @@ const About = () => {
                 <h1 className='text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-yellow-500'>What is Brazilian Jiu-Jitsu?</h1>
                 <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>{`Brazilian Jiu-Jitsu (or simply "BJJ") is a martial art that combines grappling with ground fighting to control and defeat opponents.`}</p>
 
-                <h1 className='text-5xl md:text-6xl leading-normal mt-10 mb-5 font-bold tracking-wide text-yellow-500'>Origins</h1>
+                <h1 className='text-5xl md:text-6xl leading-normal mt-10 mb-5 font-bold tracking-wide text-yellow-500'>A Brief History of BJJ</h1>
 
-                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>Mitsuyo Maeda, one of <a href="https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D" rel='noreferrer' target={'_blank'}><u>Kanō Jigorō&#39;s</u></a> finest students, arrived in Brazil in 1914 after a largely successful career promoting Judo and jiu-jitsu overseas in demonstrations and hundreds of fights against all types of challengers.</p>
+                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>Given the absurd number of online resources regarding the history of BJJ, there's not much left to add to the history of this decorated martial art.</p>
 
-                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>He would befriend a local businessman, Gastao Gracie, who helped Maeda settle down while also developing the Japanese community there. In return, Maeda taught Jiu-Jitsu to Gastao&#39;s oldest son, Carlos Gracie. Carlos&#39;s brothers would also end up pursuing jiu-jitsu, including the man who would formulate Brazilian Jiu-Jitsu as we know today: <a href="https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D" rel='noreferrer' target={'_blank'}><u>Helio Gracie</u></a>. </p>
+                <p className='w-12/12 text-small leading-normal text-yellow-300'>When Mitsuyo Maeda (one of Kano Jigoro's finest students) arrived in Brazil in 1914, it set the stage for him to nurture one of the greatest martial art families in modern history, although none of the parties involved were completely unaware at this time.</p>.
 
-                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>Helio was plagued by ailments early in life meant he could only observe trainings from the sidelines at first. His theoretical understanding of jiu-jitsu was excellent by the time he could finally train, but applying moves like throws remained challenging in light of his physical shortcomings. </p>
+                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>Prior to Brazil, Maeda led a lengthy career promoting Kodokan Judo around the world through demonstrations and style-on-style clashes with other martial artists. Several years after his arrival, he would meet and accept Carlos Gracie as a student after the latter watched one of Maeda's demonstration. The rest of the Gracie brothers would eventually join the pursuit, but it was Helio Gracie who properly laid the groundwork (pun intended) for the jiu-jitsu that we know today thanks to his emphasis and development of ground fighting over throws to compensate for his unimpressive physicality.</p>
 
-                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>Undeterred, Helio adapted his style of jiu-jitsu to prioritise not just leverage and timing over raw power and quickness, but also fighting on the ground. This system of grappling allowed Helio to defeat a number of famous grapplers and go the distance (albeit losing) with the legendary <a href="https://en.wikipedia.org/wiki/Masahiko_Kimura" rel='noreferrer' target={'_blank'}><u>Masahiko Kimura</u></a></p>.
-
-                <h1 className='text-5xl md:text-6xl leading-normal mt-10 mb-5 font-bold tracking-wide text-yellow-500'>BJJ Today</h1>
-
-                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>To be continued.</p>
+                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>Over the following decades the Gracies would carry on Maeda's tradition of calling out and accepting challenges from other martial artists and disciplines to prove that Brazilian Jiu-Jitsu was the superior art. All doubt about its effectiveness were truly erased when the first UFC (Ultimate Fighting Championship) swung around in 1993, where Royce Gracie took less than a minute to submit a larger and much stronger opponent in Ken Shamrock during the final match.</p>
             </div>
         </>
     )
