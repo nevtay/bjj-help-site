@@ -1,4 +1,4 @@
-import Container from '../components/UI/Layout/Container';
+import Container from '../components/UI/Container';
 import '../styles/globals.css'
 import 'tailwindcss/tailwind.css';
 import NextNProgress from 'nextjs-progressbar';
