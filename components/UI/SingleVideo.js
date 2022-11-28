@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { PulseLoader } from 'react-spinners'
-import { InView, useInView } from 'react-intersection-observer';
+import { InView } from 'react-intersection-observer';
 
 const SingleVideo = (props) => {
     const [videoLoaded, setVideoLoaded] = useState(false)
