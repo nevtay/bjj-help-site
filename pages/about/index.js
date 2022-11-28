@@ -21,13 +21,17 @@ const About = () => {
 
                 <h1 className='text-5xl md:text-6xl leading-normal mt-10 mb-5 font-bold tracking-wide text-yellow-500'>A Brief History of BJJ</h1>
 
-                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>Given the absurd number of online resources regarding the history of BJJ, there's not much left to add to the history of this decorated martial art.</p>
+                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>{`There's not much left to add to the history of this decorated martial art, but here's an attempt at a quick summary.`}</p>
 
-                <p className='w-12/12 text-small leading-normal text-yellow-300'>When Mitsuyo Maeda (one of Kano Jigoro's finest students) arrived in Brazil in 1914, it set the stage for him to nurture one of the greatest martial art families in modern history, although none of the parties involved were completely unaware at this time.</p>.
+                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>{`When Mitsuyo Maeda's (one of Kano Jigoro's finest students) arrived in Brazil in 1914, it set in motion for a revolutionary style of grappling to emerge.`}</p>
 
-                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>Prior to Brazil, Maeda led a lengthy career promoting Kodokan Judo around the world through demonstrations and style-on-style clashes with other martial artists. Several years after his arrival, he would meet and accept Carlos Gracie as a student after the latter watched one of Maeda's demonstration. The rest of the Gracie brothers would eventually join the pursuit, but it was Helio Gracie who properly laid the groundwork (pun intended) for the jiu-jitsu that we know today thanks to his emphasis and development of ground fighting over throws to compensate for his unimpressive physicality.</p>
+                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>{`Maeda would meet and agree to train Carlos Gracie after the latter attended one of Maeda's demonstrations. Carlos's brothers would join him in his pursuit, but it was Helio Gracie who properly laid the groundwork (pun intended) for the "Brazilian" style of jiu-jitsu. Recognising that the throws he was learning required a fair amount of strength (and therefore ill-suited for his physical attributes), he focused on ground fighting and submissions instead to level the playing field by making strength less important than aspects such as positioning and proper technique.`}</p>
 
-                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>Over the following decades the Gracies would carry on Maeda's tradition of calling out and accepting challenges from other martial artists and disciplines to prove that Brazilian Jiu-Jitsu was the superior art. All doubt about its effectiveness were truly erased when the first UFC (Ultimate Fighting Championship) swung around in 1993, where Royce Gracie took less than a minute to submit a larger and much stronger opponent in Ken Shamrock during the final match.</p>
+                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>{`The Gracies would carry on Maeda's tradition of calling out and accepting challenges from other martial artists and disciplines over the decades, believing that Brazilian Jiu-Jitsu was superior to all other martial arts. However, it wasn't until the 90's that BJJ finally established itself as an effective fighting style to the public at large, starting with Royce Gracie submitting a larger and much stronger opponent in Ken Shamrock in less than a minute during the finals of the first UFC (Ultimate Fighting Championship) in 1993.`}</p>
+
+                <p className='w-12/12 text-small leading-normal text-yellow-300 mb-5'>
+                    {`It's been all uphill for BJJ since. Today it's viewed as one of the four "pillars" of MMA alongside boxing, muay thai, and wrestling. Its emphasis on technique and positioning over raw athleticism and strength continues to produce results not just in the octagon but also across the board - fitness, self-confidence, and so forth. Who knows what it'll do for you?`}
+                </p>
             </div>
         </>
     )
