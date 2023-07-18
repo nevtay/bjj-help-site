@@ -2,7 +2,7 @@ import { useState } from "react"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import Button from "../../components/UI/Button"
-import List from "../../components/UI/Layout/List"
+import List from "../../components/UI/List"
 
 import data from "../../utils/POSITIONS.json"
 

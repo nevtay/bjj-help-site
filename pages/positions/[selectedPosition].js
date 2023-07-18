@@ -1,7 +1,7 @@
 import { useRouter } from "next/router"
 import Head from "next/head";
-import Images from '../../components/UI/Layout/Images';
-import Videos from '../../components/UI/Layout/Videos';
+import Images from '../../components/UI/Images';
+import Videos from '../../components/UI/Videos';
 import data from "../../utils/POSITIONS.json"
 import Button from "../../components/UI/Button"
 

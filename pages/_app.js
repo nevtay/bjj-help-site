@@ -1,4 +1,4 @@
-import Container from '../components/UI/Layout/Container';
+import Container from '../components/UI/Container';
 import '../styles/globals.css'
 import 'tailwindcss/tailwind.css';
 import NextNProgress from 'nextjs-progressbar';
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
     <>
       {NextNProgressCustom}
       <div className='flex flex-col justify-between h-screen'>
-        <Container classes={"pt-20"}>
+        <Container classes={"pt-14 md:pt-20"}>
           <Component {...pageProps} />
         </Container>
         <footer className='bg-gradient-to-r from-black via-black to-black text-center text-white bottom-0 left-0 mt-10 w-full py-8'>
