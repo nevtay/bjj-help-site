@@ -14,7 +14,6 @@ const Hero = () => {
             <span className='flex flex-col items-start justify-start flex-wrap md:flex-row'>
                 <SectionButton navigateTo={navigateToPositionsPage} pageName={"Positions"} className="border-yellow-500 text-yellow-500 hover:bg-yellow-50 mt-0 md:mr-7 sm:mt-0" />
                 <SectionButton navigateTo={navigateToSubmissionsPage} pageName={"Submissions"} className="border-purple-500 text-purple-500 hover:bg-purple-50 mt-3 md:mr-7 md:mt-0" />
-                <SectionButton navigateTo={navigateToAboutPage} pageName={"About BJJ"} className="border-blue-500 text-blue-500 mt-3 hover:bg-blue-50 sm:mr-0 md:mt-0" />
             </span>
         </div >
     )
