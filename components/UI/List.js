@@ -2,9 +2,9 @@ import ListItem from './ListItem'
 
 
 const List = (props) => {
-    const items = props.data || []
-    const type = props.dataType || ""
-    const hoverStyling = props.hoverStyling || ""
+    const items = props?.data || []
+    const type = props?.dataType || ""
+    const hoverStyling = props?.hoverStyling || ""
 
     return (
         <div className='flex flex-wrap'>

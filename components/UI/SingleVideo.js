@@ -15,7 +15,8 @@ const SingleVideo = (props) => {
             }}
             rootMargin="0px"
             threshold="0.1"
-            className='w-12/12 h-80 mb-7 lg:w-4/12 lg:px-2'
+            className='flex lg:w-5/12 mb-5 md:w-12/12 sm:w-12/12 lg:px-2 md:py-2 sm:py-2'
+            style={{ height: "24rem" }}
         >
             {!videoLoaded &&
                 <div className='flex justify-center h-80'>
@@ -25,7 +26,7 @@ const SingleVideo = (props) => {
                 loading='lazy'
                 src={video}
                 id={video}
-                className={`rounded-lg w-full min-h-full`}
+                className={`rounded-lg h-full w-full`}
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
             >
