@@ -39,6 +39,16 @@
             ],
             "videosUrl": [],
             "type": "submissions"
+        },
+        {
+            "name": "Armbar",
+            "description": "An Armbar, also known as a straight arm lock, is a fundamental submission technique in Brazilian jiu-jitsu. It involves using leverage to to hyperextend your opponent's elbow. An often overlooked detail is control on the shoulder, which further isolates the elbow.",
+            "imagesUrl": [
+                "https://bjjfanatics.com/cdn/shop/articles/armbar1_1bfa0c0c-0032-410f-b3de-880cebf947e2_1024x1024.jpg?v=1564425862",
+                "https://bjjfanatics.com/cdn/shop/articles/Screenshot_2019-11-10_at_10.32.21_AM_1024x1024.png?v=1573399965"
+            ],
+            "videosUrl": [],
+            "type": "submissions"
         }
     ]
 }
