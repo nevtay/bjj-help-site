@@ -14,7 +14,7 @@ const SelectedSubmission = () => {
         return (
             <>
                 <Head>
-                    <title>Submission found</title>
+                    <title>Submission not found</title>
                     <meta name="description" content={`Submission data not found!`} />
                 </Head>
                 <div>
