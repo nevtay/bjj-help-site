@@ -36,7 +36,26 @@ const SelectedSubmission = () => {
                     )
                 })}
             </span>
-
+        if (selectedSubmissionData.videosUrl.length===0){
+            return (
+                <>
+                <Head>
+                    <title>{selectedSubmissionData.name}</title>
+                    <meta name="description" content={`Learn about ${selectedSubmissionData.name}`} />
+                </Head>
+                <div>
+                    <h1 className='w-4/6 text-5xl md:text-6xl leading-normal mb-5 font-bold tracking-wide text-purple-500'>Submissions</h1>
+                    <Button onBack={navigateToSubmissionsPage} hoverStyling="hover:bg-purple-400 hover:text-black mb-7" />
+                    <h2 className='w-4/6 text-3xl md:text-4xl leading-normal text-purple-300 mb-5'>{selectedSubmissionData.name}</h2>
+                    <p className='w-12/12 text-small leading-normal text-purple-300 mb-5 md:w-5/6 '>{selectedSubmissionData.description}</p>
+                    {images}
+                    <h2 className='w-4/6 text-3xl md:text-4xl leading-normal text-purple-300 mb-6'>Videos</h2>
+                    <p className='text-2xl md:text-3xl leading-normal text-purple-200 mb-5'>Coming Soon</p>
+                </div>
+                </>
+            )
+        }
+        
         let videos = 
             <span className="flex flex-col flex-wrap items-start items-center w-12/12 md:items-start lg:flex-row lg:w-12/12 lg:items-stretch lg:justify-start">
                 {selectedSubmissionData.videosUrl && selectedSubmissionData.videosUrl.map(vid => <SingleVideo key={vid} video={vid} />)}
