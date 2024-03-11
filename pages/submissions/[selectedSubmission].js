@@ -28,7 +28,6 @@ const SelectedSubmission = () => {
     }
 
     if (selectedSubmissionData) {
-        console.log(selectedSubmissionData.videosUrl);
         let images = 
             <span className="flex flex-col flex-wrap items-start items-center w-12/12 md:items-start lg:flex-row lg:w-12/12 lg:items-stretch lg:justify-start">
                 {selectedSubmissionData.imagesUrl && selectedSubmissionData.imagesUrl.map(img => {
