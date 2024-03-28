@@ -36,7 +36,7 @@ const SelectedSubmission = () => {
                     )
                 })}
             </span>
-        if (selectedSubmissionData.videosUrl.length===0){
+        if (selectedSubmissionData.videosUrl.length === 0){
             return (
                 <>
                 <Head>
