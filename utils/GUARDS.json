@@ -28,6 +28,19 @@
             "type": "guards"
         },
         {
+            "name": "De La Riva",
+            "description": "Popularised by Ricardo de la Riva, the De La Riva guard is mostly played on your back against standing opponents by hooking your leg around of your opponent's leading leg (e.g. if your opponent leads with their right leg, your left leg wraps behind it from the outside). A wide number of sweeps and transitions can be employed from this position while also limiting your opponent's mobility and attacking options.",
+            "imagesUrl": [
+                "https://cdn.evolve-mma.com/wp-content/uploads/2018/09/dlr.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/6/61/De_la_Riva_guard.jpg"
+            ],
+            "videosUrl": [
+                "https://www.youtube.com/embed/L3gkpR4w8cM?si=nNgIbtADhUw211td",
+                "https://www.youtube.com/embed/o2-_eUw4HG0?si=EYHMJw6mOfCJMDEo"
+            ],
+            "type": "guards"
+        },
+        {
             "name": "Half Guard",
             "description": "The half guard is the position that is in between a full guard and side control or full mount. The combatant on top will try to untangle the leg and pass to obtain side control or mount, while the bottom combatant will try to transition into a full guard or alternatively attempt a sweep or submission.",
             "imagesUrl": [
