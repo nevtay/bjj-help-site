@@ -15,7 +15,7 @@ const SingleVideo = (props) => {
             }}
             rootMargin="0px"
             threshold="0.1"
-            className='flex lg:w-5/12 mb-5 md:w-12/12 sm:w-12/12 lg:px-2 md:py-2 sm:py-2'
+            className='flex lg:w-4/12 mb-5 md:w-12/12 sm:w-12/12 lg:px-2 md:py-2 sm:py-2'
             style={{ height: "24rem" }}
         >
             {!videoLoaded &&
