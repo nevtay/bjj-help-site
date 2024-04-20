@@ -8,7 +8,7 @@ import Button from "../../components/UI/Button";
 const SelectedGuard = (props) => {
     const router = useRouter()
     const selectedGuard = router.query.selectedGuard || ""
-    const selectedGuardData = guards.guards.find( guards => guards.name.toLowerCase() === selectedGuard.toLowerCase());
+    const selectedGuardData = guards.guards.find(guards => guards.name.toLowerCase() === selectedGuard.toLowerCase());
 
     const navigateToGuardsPage = () => router.push('/guards')
 
@@ -29,7 +29,7 @@ const SelectedGuard = (props) => {
     }
 
     if (selectedGuardData) {
-        let images = 
+        let images =
             <span className="flex flex-col flex-wrap items-start items-center w-12/12 md:items-start lg:flex-row lg:w-12/12 lg:items-stretch lg:justify-start">
                 {selectedGuardData.imagesUrl && selectedGuardData.imagesUrl.map(img => {
                     return (
@@ -37,9 +37,9 @@ const SelectedGuard = (props) => {
                     )
                 })}
             </span>
-        
-        let videos = 
-            <span className="flex flex-col flex-wrap items-start items-center w-12/12 md:items-start lg:flex-row lg:w-12/12 lg:items-stretch lg:justify-start">
+
+        let videos =
+            <span className="mx-auto flex flex-col lg:flex-row flex-wrap">
                 {selectedGuardData.videosUrl && selectedGuardData.videosUrl.map(vid => <SingleVideo key={vid} video={vid} />)}
             </span>
 
