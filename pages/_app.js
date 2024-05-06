@@ -2,6 +2,7 @@ import Container from '../components/UI/Container';
 import '../styles/globals.css'
 import 'tailwindcss/tailwind.css';
 import NextNProgress from 'nextjs-progressbar';
+import bjjbackground from '../public/bjjbackground.jpg';
 
 function MyApp({ Component, pageProps }) {
   const NextNProgressCustom = <NextNProgress
@@ -23,6 +24,7 @@ function MyApp({ Component, pageProps }) {
       <div className='flex flex-col justify-between h-screen'>
         <Container classes={"pt-14 md:pt-20"}>
           <Component {...pageProps} />
+          <img src={bjjbackground} />
         </Container>
         <footer className='bg-gradient-to-r from-black via-black to-black text-center text-white bottom-0 left-0 mt-10 w-full py-8'>
           <Container>
