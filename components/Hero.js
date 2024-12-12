@@ -24,7 +24,7 @@ const Hero = () => {
         <SectionButton
           navigateTo={navigateToPositionsPage}
           pageName={"Positions"}
-          className="border-yellow-500 text-yellow-500 hover:bg-yellow-50 mt-0 md:mr-7 sm:mt-0"
+          className="border-yellow-500 text-yellow-500 hover:bg-yellow-50 mt-3 md:mr-7 sm:mt-0"
         />
         <SectionButton
           navigateTo={navigateToSubmissionsPage}
