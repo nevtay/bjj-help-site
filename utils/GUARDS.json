@@ -15,6 +15,20 @@
             "type": "guards"
         },
         {
+            "name": "Half Guard",
+            "description": "The half guard is the position that is in between a full guard and side control or full mount. The combatant on top will try to untangle the leg and pass to obtain side control or mount, while the bottom combatant will try to transition into a full guard or alternatively attempt a sweep or submission.",
+            "imagesUrl": [
+                "https://cdn.shopify.com/s/files/1/1800/2299/articles/half-guard_1024x1024.jpg?v=1506792761",
+                "https://i0.wp.com/www.studentofbjj.com/wp-content/uploads/2017/02/half-guard-1024x724.png?resize=648%2C458"
+            ],
+            "videosUrl": [
+                "https://www.youtube.com/embed/9zKr-xYlPcg",
+                "https://www.youtube.com/embed/GYq1cv9mCdg",
+                "https://www.youtube.com/embed/HmBJN5FE9q4"
+            ],
+            "type": "guards"
+        },
+        {
             "name": "Deep Half",
             "description": "What does the deep half guard look like? In the position, you’re lying on your back, your shoulders directly underneath the middle of your opponent’s hips. You control one of their legs, which is extended. By wrapping your own legs around it, most often in a hook configuration or a triangle, and you use your arms to establish grips at the hip level of the same leg.\n\n The other leg of your opponent is bent, and your head rests on the thigh. In certain situations, you can also use one of your arms to control the hip on that side.",
             "imagesUrl": [
@@ -29,28 +43,13 @@
         },
         {
             "name": "De La Riva",
-            "description": "Popularised by Ricardo de la Riva, the De La Riva guard is mostly played on your back against standing opponents by hooking your leg around of your opponent's leading leg (e.g. if your opponent leads with their right leg, your left leg wraps behind it from the outside). A wide number of sweeps and transitions can be employed from this position while also limiting your opponent's mobility and attacking options.",
+            "description": "“De La Riva” guard is when one has his/her back towards the ground while attempting to control the opponent using his/her open legs. One of those legs needs to be outside hooked around the opponents’s legs (i.e. left leg hooking the guard passer’s right leg), compromising the passer’s balance with the use of this hook.",
             "imagesUrl": [
-                "https://cdn.evolve-mma.com/wp-content/uploads/2018/09/dlr.jpg",
-                "https://upload.wikimedia.org/wikipedia/commons/6/61/De_la_Riva_guard.jpg"
+                "https://i.ytimg.com/vi/wfXCjevEqh8/maxresdefault.jpg",
+                "https://www.bjjheroes.com/wp-content/uploads/2014/06/De-La-Riva-Guard1.jpg"
             ],
             "videosUrl": [
-                "https://www.youtube.com/embed/L3gkpR4w8cM?si=nNgIbtADhUw211td",
-                "https://www.youtube.com/embed/o2-_eUw4HG0?si=EYHMJw6mOfCJMDEo"
-            ],
-            "type": "guards"
-        },
-        {
-            "name": "Half Guard",
-            "description": "The half guard is the position that is in between a full guard and side control or full mount. The combatant on top will try to untangle the leg and pass to obtain side control or mount, while the bottom combatant will try to transition into a full guard or alternatively attempt a sweep or submission.",
-            "imagesUrl": [
-                "https://cdn.shopify.com/s/files/1/1800/2299/articles/half-guard_1024x1024.jpg?v=1506792761",
-                "https://i0.wp.com/www.studentofbjj.com/wp-content/uploads/2017/02/half-guard-1024x724.png?resize=648%2C458"
-            ],
-            "videosUrl": [
-                "https://www.youtube.com/embed/9zKr-xYlPcg",
-                "https://www.youtube.com/embed/GYq1cv9mCdg",
-                "https://www.youtube.com/embed/HmBJN5FE9q4"
+                "https://www.youtube.com/watch?v=xa0c5HHTuhM&pp=ygUKZGUgbGEgcml2YQ%3D%3D"
             ],
             "type": "guards"
         }
